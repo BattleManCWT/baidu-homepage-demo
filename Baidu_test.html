@@ -7,195 +7,189 @@
   <style>
     <!--全局样式-->
   * {
-    margin:
-    0
-    auto;
-    padding:
-    0;
-    font-family:
-    "Microsoft
-    YaHei";
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Microsoft YaHei";
   }
   a {
-    text-decoration:
-    none;
+    text-decoration: none;
   }
   <!--顶部样式、上左、上右-->
   .top-part{
-  position: relative;
-  height: 200px;
-  padding-bottom: 0;
-  text-align: center;
+    position: relative;
+    height: 200px;
+    padding-bottom: 0;
+    text-align: center;
   }
   .top-left{
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 60px;
-  padding-top: 20px;
-  padding-left: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 20px;
   }
   .top-left a{
-  font-size: 13px;
-  margin-right: 30px;
-  color: black;
-  display: inline-block;
+    font-size: 13px;
+    margin-right: 30px;
+    color: black;
+    display: inline-block;
   }
   .top-right{
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 60px;
-  padding-top: 20px;
-  padding-right: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 60px;
+    padding-top: 20px;
+    padding-right: 20px;
   }
   <!--顶部栏更多与设置的下拉菜单-->
   .more-titles{
-  width: 80px;
-  text-align: center;
-  margin-top: 4px;
+    width: 80px;
+    text-align: center;
+    margin-top: 4px;
   }
   .more-btn{
-  display: inline-block;
-  font-size: 13px;
-  display: block;
-  text-align: center;
-  color: black;
+    display: inline-block;
+    font-size: 13px;
+    display: block;
+    text-align: center;
+    color: black;
   }
   .top-left a:hover,.more-content a:hover,.setting-btn:hover{
-  color: blue;
+    color: blue;
   }
   .more-content{
-  display: inline-block;
+    display: inline-block;
   }
   .more-list{
-  display: none;
-  position: absolute;
-  width: 380px;
-  height: 300px;
-  left: 180px;
-  background: white;
-  box-shadow: 0 2px 10px 0;
-  border-radius: 15px;
+    display: none;
+    position: absolute;
+    width: 380px;
+    height: 300px;
+    left: 180px;
+    background: white;
+    box-shadow: 0 2px 10px 0;
+    border-radius: 15px;
   }
   .more-list a{
-  color: black;
-  display: inline-block;
-  padding: 8px 0px;
-  font-size: 13px;
+    color: black;
+    display: inline-block;
+    padding: 8px 0px;
+    font-size: 13px;
   }
   .row-1{
-  padding-top: 20px;
-  text-align: center;
+    padding-top: 20px;
+    text-align: center;
   }
   .row-2{
-  padding-top: 25px;
-  text-align: center;
+    padding-top: 25px;
+    text-align: center;
   }
   .row-3{
-  padding-top: 30px;
-  text-align: center;
+    padding-top: 30px;
+    text-align: center;
   }
   .row-3 a{
-  color: #BBBBBB;
+    color: #BBBBBB;
   }
   .setting-btn{
-  display: inline-block;
-  position: relative;
-  cursor: pointer;
-  font-size: 13px;
-  margin-left: 30px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-size: 13px;
+    margin-left: 30px;
   }
   .login{
-  background-color: #4E6EF2;
-  display: inline-block;
-  border-radius: 5px;
-  text-align: center;
-  color: white;
-  font-size: 13px;
-  margin-left: 30px;
-  width: 48px;
-  line-height: 24px;
+    background-color: #4E6EF2;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    margin-left: 30px;
+    width: 48px;
+    line-height: 24px;
   }
   .setting-list{
-  display: none;
-  position: absolute;
-  width: 84px;
-  padding: 8px 0px;
-  top: 45px;
-  right: 75px;
-  float: right;
-  text-align: left;
-  border-radius: 12px;
-  background-color: white;
-  box-shadow: 0 2px 10px 0;
+    display: none;
+    position: absolute;
+    width: 84px;
+    padding: 8px 0px;
+    top: 45px;
+    right: 75px;
+    float: right;
+    text-align: left;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 2px 10px 0;
   }
   .setting-list a{
-  display: block;
-  margin: 3px 16px;
-  color: black;
-  font-size: 13px;
+    display: block;
+    margin: 3px 16px;
+    color: black;
+    font-size: 13px;
   }
   .top-right:hover .setting-list{
-  display: block;
+    display: block;
   }
   .more-content:hover .more-list{
-  display: block;
+    display: block;
   }
 
 
   <!--中间样式-->
   .middle-part{
-  width: 100%;
+    width: 100%;
   }
   .middle-img,.middle-img a{
-  text-align: center;
-  margin-top: 90px;
+    text-align: center;
+    margin-top: 90px;
   }
   .search-bar{
-  width: 828px;
-  height: 38px;
-  margin: 30px auto;
-  text-align: center;
+    width: 828px;
+    height: 38px;
+    margin: 30px auto;
+    text-align: center;
   }
   .search{
-  width: 685px;
-  height: 34px;
-  border: 1px solid #4E6EF2;
-  float: left;
+    width: 685px;
+    height: 34px;
+    border: 1px solid #4E6EF2;
+    float: left;
   }
   .bar{
-  width: 135px;
-  height: 38px;
-  font-size: 16px;
-  background-color:#4E6EF2;
-  color:white;
-  border: 0px;
-  float: left;
-  cursor: pointer;
+    width: 135px;
+    height: 38px;
+    font-size: 16px;
+    background-color:#4E6EF2;
+    color:white;
+    border: 0px;
+    float: left;
+    cursor: pointer;
   }
   .bar:hover{
-  background-color:#4662D9;
+    background-color:#4662D9;
   }
 
   <!--底部样式-->
   .bottom-part,.bottom-part p{
-  position: fixed;
+    position: fixed;
   }
   .bottom-part p{
-  text-align: center;
-  width: 100%;
-  bottom: 0;
-  height: 30px;
-  line-height: 30px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    height: 30px;
+    line-height: 30px;
   }
   .zi-color,.bottom-part a{
-  font-size: 12px;
-  color: #BBBBBB;
-  margin-right: 20px;
+    font-size: 12px;
+    color: #BBBBBB;
+    margin-right: 20px;
   }
   .bottom-part a:hover{
-  color: black;
+    color: black;
   }
   </style>
 </head>
