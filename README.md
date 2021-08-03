@@ -1,2 +1,2 @@
 # baidu-homepage-demo
-A baidu homepage written in HTML &amp; CSS
+仿百度首页 A baidu homepage written in HTML &amp; CSS
